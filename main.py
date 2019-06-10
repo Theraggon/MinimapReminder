@@ -10,7 +10,7 @@ files = []
 
 for r, d, f in os.walk(path):
     for file in f:
-        if '.mp3' or '.wav' or '.aiff' in file:
+        if '.mp3' in file or '.wav' in file or '.aiff' in file:
             files.append(os.path.join(r, file))
 
 while True:
