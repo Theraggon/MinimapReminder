@@ -4,7 +4,7 @@ import random
 import time
 import argparse
 
-path = '.\Sound'
+path = '..\Sound'
 interval = 5
 
 parser = argparse.ArgumentParser()
